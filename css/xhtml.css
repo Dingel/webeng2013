@@ -1,0 +1,59 @@
+.semantic-true {
+	background-color : #FF4000;
+	text-align : center;
+	font-weight:bold;
+}
+
+.semantic-false {
+	background-color : #DF3A01;
+	text-align: center;
+	font-weight:bold;
+}
+
+.tag {
+	text-align: left;
+	font-weight:bold;
+	background-color: #FFFF00
+}
+
+.description {
+	text-align: left;
+	background-color: #FFBF00
+}
+
+.inline-true {
+	text-align: center;
+	background-color: #FF8000;
+	font-weight:bold;
+}
+
+.nothing {
+	background-color : black
+}
+
+.block-true {
+	text-align: center;
+	background-color: #DF7401;
+	font-weight:bold;
+}
+
+td {
+	text-align: center;
+	 border-left-width:0px;
+	 border-right-width:0px;
+}
+
+th {
+	text-align: center;
+	 border-left-width:0px;
+	 border-right-width:0px;
+	 background-color : #BED622;
+}
+
+table {
+	border-spacing:0;
+    border-collapse:collapse;
+  text-align:justify;
+   margin-left:5em;
+   margin-right:5em;
+}
