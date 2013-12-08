@@ -6,21 +6,21 @@ body {
     border-collapse:collapse;
    margin-left:10em;
    margin-right:10em;
-   background-color: #000000;
+   background-color: #D8D8D8;
 }
 
 legend {
-	color: #ffffff;
+	color: #585858;
 	font-size: 1.2em;
 }
 
 label {
-	color: #ffffff;
+	color: #585858;
 
 }
 
 h1 {
-	color: #ffffff;
+	color: #585858;
 
 }
 
@@ -30,7 +30,7 @@ fieldset {
 }
 
 input[type=submit] {
-	background-color: #000000;
+	background-color: #6E6E6E;
 	color: #ffffff;
 }
 
