@@ -3,4 +3,31 @@ body {
     border-collapse:collapse;
    margin-left:10em;
    margin-right:10em;
+   background-color: #000000;
 }
+
+legend {
+	color: #ffffff;
+
+}
+
+label {
+	color: #ffffff;
+
+}
+
+h1 {
+	color: #ffffff;
+
+}
+
+
+fieldset {
+	width: 30%
+}
+
+input[type=submit] {
+	background-color: #000000;
+	color: #ffffff;
+}
+
