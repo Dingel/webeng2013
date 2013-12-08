@@ -1,3 +1,6 @@
+* {
+	font-family: sans-serif 
+}
 body {
 	border-spacing:0;
     border-collapse:collapse;
@@ -8,7 +11,7 @@ body {
 
 legend {
 	color: #ffffff;
-
+	font-size: 1.2em;
 }
 
 label {
@@ -23,7 +26,7 @@ h1 {
 
 
 fieldset {
-	width: 30%
+	display: inline-block;
 }
 
 input[type=submit] {
