@@ -1,59 +1,63 @@
 .semantic-true {
-	background-color : #FF4000;
-	text-align : center;
-	font-weight:bold;
+	background-color: #7E7E7E;
+	text-align: center;
+	font-weight: bold;
 }
 
 .semantic-false {
-	background-color : #DF3A01;
+	background-color: #F2F2F2;
 	text-align: center;
-	font-weight:bold;
+	font-weight: bold;
 }
 
 .tag {
 	text-align: left;
-	font-weight:bold;
-	background-color: #FFFF00
+	font-weight: bold;
+	background-color: #F5F5F0
 }
 
 .description {
 	text-align: left;
-	background-color: #FFBF00
+	background-color: #E0E0D1
 }
 
 .inline-true {
 	text-align: center;
-	background-color: #FF8000;
-	font-weight:bold;
+	background-color: #86867D;
+	font-weight: bold;
 }
 
 .nothing {
-	background-color : black
+	background-color: black
 }
 
 .block-true {
 	text-align: center;
-	background-color: #DF7401;
-	font-weight:bold;
+	background-color: #F2F2F1;
+	font-weight: bold;
 }
 
 td {
 	text-align: center;
-	 border-left-width:0px;
-	 border-right-width:0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
 }
 
 th {
 	text-align: center;
-	 border-left-width:0px;
-	 border-right-width:0px;
-	 background-color : #BED622;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	background-color: #e5e5e5;
 }
 
 table {
-	border-spacing:0;
-    border-collapse:collapse;
-  text-align:justify;
-   margin-left:5em;
-   margin-right:5em;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: justify;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+tr:hover td {
+	background-color: #FFFF00;
 }
