@@ -1,6 +1,4 @@
-* {
-	font-family: sans-serif 
-}
+
 body {
 	border-spacing:0;
     border-collapse:collapse;
@@ -9,14 +7,10 @@ body {
    background-color: #D8D8D8;
 }
 
-legend {
-	color: #585858;
-	font-size: 1.2em;
-}
-
 label {
 	color: #585858;
-
+	background-color: #ffffff; 
+	font-size: 1.2em
 }
 
 h1 {
@@ -26,11 +20,27 @@ h1 {
 
 
 fieldset {
-	display: inline-block;
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
 }
 
+legend {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+ 	width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
 input[type=submit] {
 	background-color: #6E6E6E;
 	color: #ffffff;
+}
+
+input {
+	height: 2em;	
 }
 
