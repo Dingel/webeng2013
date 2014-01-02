@@ -37,6 +37,11 @@
 	font-weight: bold;
 }
 
+.buttons {
+   margin-left:5em;
+   margin-right:5em;
+}
+
 td {
 	text-align: center;
 	border-left-width: 0px;
