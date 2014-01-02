@@ -51,9 +51,11 @@ th {
 }
 
 table {
-	border-spacing: 0;
-	border-collapse: collapse;
-	text-align: justify;
+	border-spacing:0;
+    border-collapse:collapse;
+  text-align:justify;
+   margin-left:5em;
+   margin-right:5em;
 }
 
 tr:hover td {
