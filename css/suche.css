@@ -32,6 +32,13 @@ fieldset {
 input[type=submit] {
 	background-color: #6E6E6E;
 	color: #ffffff;
+	border: 1px solid #000000;
+}
+
+input[type=submit]:hover, input[type=submit]:focus {
+	background-color: #6E6E6E;
+	color: #ffffff;
+	border: 1px solid #000000;
 }
 
 
